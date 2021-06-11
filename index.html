@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Momentam</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-column">
+        <select>
+          <option value="">Select Link</option>
+          <option value="naver">NAVER</option>
+          <option value="google">GOOGLE</option>
+        </select>
+        <form class="header-form">
+          <input type="text" class="header-form_input" />
+        </form>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="header-column"></div>
+      <div class="header-column">
+        <span class="header-column-place">진주</span>
+        <sapn class="header-column-temperature">22</sapn>
+      </div>
+    </header>
+    <main>
+      <div class="main-column">
+        <div class="main-user">
+          <form class="main-user_form">
+            <input
+              class="main-user_form_input"
+              type="text"
+              placeholder="What's your name?"
+            />
+          </form>
+          <span class="main-user_userName"></span>
+        </div>
+      </div>
+      <div class="main-column">
+        <div class="main-column-center-left">
+          <div class="main-center-left_clock">
+            <span class="time">00:00:00</span>
+          </div>
+        </div>
+        <div class="main-column-center-right">
+          <div class="main-center-right_formBox">
+            <form class="main-center-right_formBox_form">
+              <input type="text" placeholder="New Todo" />
+            </form>
+          </div>
+          <div class="main-center-right_toDoList">
+            <label for="pending">Pending</label>
+            <ul name="pending" class="pending-list">
+              <li>adadadadaad</li>
+            </ul>
+            <label for="finished">Finished</label>
+            <ul name="finished" class="finished-list"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-qouteBox">
+        <h4 class="footer-qouteBox_qoute">ssssssssss</h4>
+        <h6 class="footer-qouteBox_writer">aaaaaaa</h6>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/5f421e7bb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/user.js"></script>
+  </body>
+</html>

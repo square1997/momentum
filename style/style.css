@@ -1,0 +1,106 @@
+body {
+  background-color: tomato;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+.header-column:first-child {
+  display: flex;
+}
+.header-column:first-child select,
+i,
+form {
+  margin-right: 10px;
+}
+
+.header-column:first-child select {
+  font-family: "Noto Sansf KR", sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0 0 2px 0;
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+.header-column:first-child select option {
+  appearance: none;
+  background-color: black;
+}
+
+.header-form_input {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 0 0 2px 0;
+  outline: none;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 400px;
+}
+.main-column:first-child {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.main-user_form_input {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 0 0 2px 0;
+  outline: none;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.main-user_form_input::placeholder {
+  color: white;
+}
+.main-column:last-child {
+  display: flex;
+}
+.main-column-center-left,
+.main-column-center-right {
+  width: 50%;
+}
+.main-column-center-left {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.main-center-right_formBox_form input {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 0 0 2px 0;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-center-right_formBox_form input::placeholder {
+  color: white;
+}
+.pending-list,
+.finished-list {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 60%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-qouteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-qouteBox h4 {
+  margin: 0;
+}

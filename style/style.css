@@ -50,6 +50,9 @@ main {
   justify-content: center;
   margin-bottom: 100px;
 }
+.main-user_form {
+  display: none;
+}
 .main-user_form_input {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(255, 255, 255, 0.5);
@@ -61,6 +64,14 @@ main {
 }
 .main-user_form_input::placeholder {
   color: white;
+}
+.main-user_userName {
+  display: none;
+  color: white;
+  font-size: 30px;
+}
+.show {
+  display: block;
 }
 .main-column:last-child {
   display: flex;
@@ -102,5 +113,12 @@ footer {
   align-items: center;
 }
 .footer-qouteBox h4 {
+  margin: 0;
+}
+.footer-quoteBox_autherBox {
+  display: flex;
+  justify-content: center;
+}
+.footer-quoteBox_autherBox h6 {
   margin: 0;
 }

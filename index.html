@@ -18,12 +18,15 @@
         <form class="header-form">
           <input type="text" class="header-form_input" />
         </form>
-        <i class="fas fa-search"></i>
+        <button class="search-icon">
+          <i class="fas fa-search"></i>
+        </button>
       </div>
       <div class="header-column"></div>
       <div class="header-column">
-        <span class="header-column-place">진주</span>
-        <sapn class="header-column-temperature">22</sapn>
+        <span class="header-column-place"></span>
+        <span class="header-column-temperature"></sapn>
+        <span>&#8451;</span>
       </div>
     </header>
     <main>
@@ -52,12 +55,14 @@
             </form>
           </div>
           <div class="main-center-right_toDoList">
-            <label for="pending">Pending</label>
-            <ul name="pending" class="pending-list">
-              <li>adadadadaad</li>
-            </ul>
-            <label for="finished">Finished</label>
-            <ul name="finished" class="finished-list"></ul>
+            <div class="pending-list-box">
+              <label for="pending">Pending</label>
+              <ul name="pending" class="pending-list"></ul>
+            </div>
+            <div class="finished-list-box">
+              <label for="finished">Finished</label>
+              <ul name="finished" class="finished-list"></ul>
+            </div>
           </div>
         </div>
       </div>
@@ -77,5 +82,9 @@
     <script src="src/user.js"></script>
     <script src="src/clock.js"></script>
     <script src="src/quote.js"></script>
+    <script src="src/toDo.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/backGround.js"></script>
+    <script src="src/search.js"></script>
   </body>
 </html>
